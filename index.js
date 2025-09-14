@@ -2,7 +2,7 @@ import 'dotenv/config';
 import { ApolloServer } from '@apollo/server';
 import { startStandaloneServer } from '@apollo/server/standalone';
 import pg from 'pg';
-import fs from 'fs';
+import fs from 'fs'; 
 import { PubSub } from 'graphql-subscriptions';  // to simulate real-time events
 
 
